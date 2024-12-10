@@ -4,7 +4,7 @@ body{
 .gradient-background {
     background: linear-gradient(300deg,#E1FFBB, #beff68);
     background-size: 180% 180%;
-    animation: gradient-animation 3s linear infinite;
+    animation: gradient-animation 3s ease infinite;
   }
   
   @keyframes gradient-animation {
@@ -114,4 +114,18 @@ body{
 }
 #left>*{
     text-align: left;
+}
+@media (max-width:600px) {
+    #prog{
+        font-size:30px;
+    }
+    #sp{
+        font-size:50px;
+    }
+    #prof{
+        font-size:30px;
+    }
+    #social{
+        text-align: center;
+    }
 }
